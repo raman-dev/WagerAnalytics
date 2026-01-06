@@ -24,3 +24,4 @@ Type
     Team 
         - one or multiple stats that a team can collect/accomplish within
           the span of a single game
+        - can be exact count or over/under 
