@@ -1,0 +1,26 @@
+Trying to understand my own wager behaviours 
+understand when to wager on player/team
+
+pydantic model
+-------------
+
+Event Model
+-------------
+    - An event that will or will not 
+    - state: true or flase
+
+Basketball Event Model - Events that come true or not during a basketball game
+--------
+types 2
+player type or team type 
+
+Type 
+-----------
+    Player 
+        - one or multiple stats that a single player can collect/accomplish within 
+          span of a single game 
+        - can be exact count or over/under 
+    
+    Team 
+        - one or multiple stats that a team can collect/accomplish within
+          the span of a single game
