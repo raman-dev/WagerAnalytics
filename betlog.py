@@ -8,7 +8,7 @@ import click
 import pandas as pd
 
 CSV_FILE = "bets.csv"
-FIELDS = ["placed_at", "player", "wager_type", "line", "stake", "odds"]
+FIELDS = ["placed_at", "player", "wager_type", "stake", "odds"]
 
 
 def init_csv():
@@ -30,7 +30,6 @@ def add():
 
     player = click.prompt("Player name", type=str)
     wager_type = click.prompt("Wager type (points, rebounds, PRA, etc)", type=str)
-    line = click.prompt("Line", type=float)
     stake = click.prompt("Stake ($)", type=float)
     odds = click.prompt("Odds (e.g. -110, +125)", type=int)
 
@@ -42,7 +41,6 @@ def add():
             placed_at,
             player.strip(),
             wager_type.lower().strip(),
-            line,
             stake,
             odds
         ])
