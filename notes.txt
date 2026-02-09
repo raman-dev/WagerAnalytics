@@ -80,7 +80,9 @@ bet_x | wager_x | is_parlay | legs
   0      1.2       true     |  [0] 
 
 
-
+Format of records
+employee | service | amount
+    x    |  y      | $z
     
 
    
