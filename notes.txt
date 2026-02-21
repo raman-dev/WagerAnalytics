@@ -79,6 +79,9 @@ Bet Table
 bet_x | wager_x | is_parlay | legs 
   0      1.2       true     |  [0] 
 
+                             mins_played >= typical when true | lineup changes | stats check conisistency | is back-2-back | check is team still competing | min_played in blowouts >= typical |
+jaylon tyson >= 7.5 points              false                 | pushed_back    | true                     | true           | true                          | false
+
 
 
     
